@@ -1,0 +1,12 @@
+每个组织有自己的CA，TLS证书作TLS通信；身份证书，包括注册客户端、usr、admin、peer网络可识别哪个在访问网络，保证通信安全
+生产环境中，每个组织有一个不是共用一个CA
+会生成身份MSP和TLSMSP
+
+orderCA和peerCA颁发机构下成员的身份证书
+共用一个TLSCA，颁发TLSCA
+
+
+获取MSP需要组织成员注册TLSCA，然后再由TLSCA办法证书
+FabricCA既可以颁发TLSCA也可以颁发身份CA 共用一个server逻辑上分开
+
+ 

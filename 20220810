@@ -1,0 +1,3 @@
+查看容器状态时systemctl status docker
+有7053、944为什么没有7050
+又重新重启了一下docker start 可行

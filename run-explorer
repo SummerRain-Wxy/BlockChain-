@@ -1,0 +1,7 @@
+rm -r organizations/
+
+cp -r  /home/usr/WFabric/hyperledger/fabric-2.4.1/scripts/fabric-samples/test-network/organizations .
+
+更改admin:///home/usr/WFabric/hyperledger/explorer/connection-profile 下的test-network.json文件，将pk更改
+
+docker-compose up -d
